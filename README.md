@@ -1,8 +1,8 @@
 # Weather-Journal App Project
 
 ## Content
-*Instructions
-*Descripstion
+* Instructions
+* Descripstion
 ## Instructions
 For Using Weather-Journal use the zipcode for us.
 ## Descriptions
