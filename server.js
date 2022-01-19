@@ -28,15 +28,15 @@ function listening(){
     console.log(`running on localhost: ${port}`);
 };
 
-app.get('/getData', getData);
+app.get('/getData', getRoute);
 
-function getData(req,res){
+function getRoute(req,res){
     res.send(projectData);
   }
 
-app.post('/postData', postData);
+app.post('/postData', postRoute);
 
-function postData (req,res){
+function postRoute (req,res){
   projectData = {
     temp: req.body.temp,
     date: req.body.date,
